@@ -14,7 +14,6 @@ describe('API testing', () => {
     expect(res.status).to.be.equal(404);
     expect(res.body).to.have.property(
       'message',
-      'Route Not Found',
     );
   });
 });
